@@ -1,1 +1,32 @@
 // Navigation Styles here
+.head_container {
+    .flex();
+     max-width: 800px;
+     width: 100%;
+     border-bottom: 2px dashed @navigation-border;
+     margin: auto;
+     padding-top: 2%;
+     padding-bottom: 2%;
+      @media @phone {
+        .flexmobile();
+      }
+     .navbar{
+        width: 35%;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        @media @phone {
+          width: 90%;
+          padding-top: 2%;
+        }
+      .navbar a{
+       text-decoration: none;
+       font-size: 3rem;
+        }
+      }
+    }
+  .navLink {
+    text-decoration: none;
+    color: @shark;
+    font-size: 1.6rem;
+  }
